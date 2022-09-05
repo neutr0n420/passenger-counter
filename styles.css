@@ -1,0 +1,49 @@
+body{
+    background-image: url("images/railway.jpeg");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Combo', cursive;
+    font-size: 30px;
+    color: #dda15e;
+    height: 100vh;
+    
+}
+.main-class{
+    margin-top: 250px;
+}
+#count-El{
+    margin-top:20px ;
+}
+#main-text{
+    margin-bottom: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#increment-btn{
+   background-color: #ffbe0b;
+}
+#save-btn{
+    background-color: #dde5b6;
+    padding: 10px 40px;
+}
+.btn-property{
+    border: 0;
+    padding: 10px 20px;
+    font-family: 'Almarai', sans-serif;
+    font-size: large;
+    border-radius: 20px;
+    margin: 10px ;
+    
+}
+
+#increment-btn:hover{
+    background-color:#D79E00 ;
+}
+#save-btn:hover{
+    background-color: #CBD890;
+}
